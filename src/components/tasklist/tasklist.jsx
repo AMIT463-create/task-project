@@ -3,7 +3,7 @@ import AcceptTask from './accepttask'
 import NewTask from './newtask'
 import CompleteTask from './completetask'
 import FailedTask from './failedtask'
-import { AuthContext } from '../../context/AuthProvider'
+import { AuthContext } from '../context/AuthProvider'
 
 const TaskList = ({ data }) => {
   const [userData, setUserData] = useContext(AuthContext)

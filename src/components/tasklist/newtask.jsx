@@ -1,8 +1,8 @@
 
 import React, { useContext } from "react";
-import { AuthContext } from "../../context/AuthProvider";
 import { updateTaskStatus } from "./taskutils";
 import { showSuccessToast } from "../../utils/toastConfig";
+import { AuthContext } from "../context/AuthProvider";
  
 
 const NewTask = ({ element }) => {
