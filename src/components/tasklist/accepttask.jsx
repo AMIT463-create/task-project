@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AuthContext } from '../../context/AuthProvider'
+import { AuthContext } from '../../context/AuthProvidejr'
 import { updateTaskStatus } from './taskutils'
 import { showSuccessToast,showFailureToast } from '../../utils/toastConfig'
 
